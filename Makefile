@@ -42,3 +42,6 @@ help:
 	@echo "  lint      - Lint code with flake8"
 	@echo "  test      - Run tests with pytest"
 	@echo "  clean     - Remove all .pyc files"
+
+test-warning:
+	@pytest --disable-warnings
